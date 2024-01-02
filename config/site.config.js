@@ -17,10 +17,10 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Chiheisen Vercel Index",
+  title: "EreN's Drive",
 
   // The folder that you are to share publicly with Chiheisen-Vercel-Index. Use '/' if you want to share your root folder.
-  baseDirectory: '/Public',
+  baseDirectory: '/ROMs',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -45,7 +45,7 @@ module.exports = {
   protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:hmmodsofficial@gmail.com',
+  email: '',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
@@ -53,7 +53,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/Chiheisen-Union/Chiheisen-Vercel-Index',
+      link: 'https://github.com/MrErenK/Chiheisen-Vercel-Index',
     },
   ],
 
